@@ -1,0 +1,46 @@
+#logo{
+    width: auto;
+    height: 150px;
+    margin: auto;
+}
+
+.v1{
+    border-right: solid 0.1953125vw;
+    border-color: gainsboro;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+.slideshow_size{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+    height: 68%;
+}
+
+.relevant-text{
+    font-weight: bold;
+    color: #021627;
+}
+
+.ins-div-l{
+    display: block;
+    margin-left: 77px;
+    margin-right: 77px;
+}
+
+#username{
+    color: #021627;
+}
+
+
+@media screen and (max-width: 500px){
+    .slideshow_size{
+        width: 90%;
+    }
+
+  }

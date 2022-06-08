@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="icon" type="image/png" href="media/icon.png"/>
+  <link rel="stylesheet" href="media/font-awesome-4.7.0/css/font-awesome.css">
+  <title>Register - Help For Ukraine</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>
+        Sign-up:
+      </h1>
+      <div id="msgError"></div>
+      <div id="msgSuccess"></div>
+
+
+
+
+      <div class="label-float">
+        <input type="text" id="name" placeholder="" required>
+        <label for="rg-name" id="labelName">Name</label>
+      </div>
+
+      <div class="label-float">
+        <input type="text" id="user" placeholder="" required>
+        <label for="user" id="labelUser">Username</label>
+      </div>
+      
+      <div class="label-float">
+        <input type="password" id="password" placeholder="" required>
+        <label for="password" id="labelPassword">Password</label>
+        <i id="seePassword" class="fa fa-eye" aria-hidden="true"></i>
+      </div>
+
+      <div class="label-float">
+        <input type="password" id="confirmPassword" placeholder="" required>
+        <label for="confirmPassword" id="labelConfirmPassword">Enter Password again</label>
+        <i id="seePasswordConfirm" class="fa fa-eye" aria-hidden="true"></i>
+    </div>
+
+      <div class="justify-center">
+        <button onclick='signUp()'>Cadastrar</button>
+      </div>
+
+    </div>
+  </div>
+
+    <script src="./js/register.js"></script>
+</body>
+</html>
