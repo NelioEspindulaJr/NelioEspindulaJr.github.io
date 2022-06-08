@@ -22,6 +22,8 @@ A interface do meu projeto é a seguinte:
 
 Ao cair na Home do site, na Navbar é possível ver os botões de 'Register' ou 'login'. O interessante é que quando for utilizar o site, que cadastre um usuário e depois faça o login.
 
+![home](https://i.imgur.com/lOy9rhP.png)
+
 > O site, em relação ao conteúdo, está bem incompleto. Porém, apenas para questões de análise de código e estruturação dos arquivos, é suficiente.
 
 # Scripts
